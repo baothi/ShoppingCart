@@ -10,6 +10,7 @@ require("channels")
 
 import "bootstrap"
 import "../stylesheets/application"
+import "../stylesheets/deviseform.scss"
 
 docment.addEvntlistener("turbolinks:load", () =>{
   $('[data-toggle="tooltip"]').tooltip()
