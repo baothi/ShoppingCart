@@ -13,4 +13,5 @@ Rails.application.routes.draw do
   root to: 'catalogues#index'
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   resources :catalogues
+  resources :org_people
 end

@@ -44,7 +44,7 @@
             <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <li>
                 <!-- <a class="dropdown-item" href="#">Profile</a> -->
-                <%= link_to "Profile", edit_org_people_registration_path, class: "dropdown-item" %>  
+                <%= link_to "Profile", edit_org_people_path(current_org_person.id), class: "dropdown-item" %>  
               </li>
               <li>
                 <!-- <a class="dropdown-item" href="#">Logout</a> -->
